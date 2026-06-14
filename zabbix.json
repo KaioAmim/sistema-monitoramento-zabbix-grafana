@@ -1,0 +1,544 @@
+{
+    "zabbix_export": {
+        "version": "7.4",
+        "host_groups": [
+            {
+                "uuid": "b1718030208949f3844d0331e3f73557",
+                "name": "SAUDE"
+            },
+            {
+                "uuid": "6f6799aa69e844b4b3918f779f2abf08",
+                "name": "Zabbix servers"
+            }
+        ],
+        "hosts": [
+            {
+                "host": "AMERICA",
+                "name": "AMERICA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.24",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "ARE",
+                "name": "ARE - post\u00e3o",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.169.172",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "BARRETOS II",
+                "name": "BARRETOS II",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.26",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "CAPS",
+                "name": "CAPS",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.11",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "CASA ROSA",
+                "name": "CASA ROSA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.3",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "CMR",
+                "name": "CMR",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.38",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "CRISTIANO DE CARVALHO",
+                "name": "CRISTIANO DE CARVALHO",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "138.219.222.149",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "CSU",
+                "name": "CSU",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.23",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "IDOSO",
+                "name": "IDOSO",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.34",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "INFECTO",
+                "name": "INFECTO",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.8",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "LUIS SPINA",
+                "name": "LUIS SPINA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "138.219.220.147",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "MARILIA",
+                "name": "MARILIA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.39",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "MINERVA",
+                "name": "MINERVA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "138.219.220.251",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "PC-TESTE",
+                "name": "PC-TESTE",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "192.168.200.203",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "PIMENTA",
+                "name": "PIMENTA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.169.240",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "SAMU",
+                "name": "SAMU",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.75",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "SAN DIEGO",
+                "name": "SAN DIEGO",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "191.5.126.122",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "SAO FRANCISCO",
+                "name": "SAO FRANCISCO",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "191.5.126.111",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "SAUDE MENTAL",
+                "name": "SAUDE MENTAL",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.13",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "SMS",
+                "name": "SMS",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.78",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "UPA",
+                "name": "UPA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.73",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "VETORES",
+                "name": "VETORES",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.44",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "VIDA NOVA",
+                "name": "VIDA NOVA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.170.35",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "VOCACIONAL",
+                "name": "VOCACIONAL",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.78",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "WIFI SECRETARIA",
+                "name": "WIFI SECRETARIA",
+                "templates": [
+                    {
+                        "name": "ICMP Ping"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "SAUDE"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "170.246.168.49",
+                        "interface_ref": "if1"
+                    }
+                ]
+            },
+            {
+                "host": "Zabbix server",
+                "name": "Zabbix server",
+                "templates": [
+                    {
+                        "name": "Linux by Zabbix agent"
+                    },
+                    {
+                        "name": "Zabbix server health"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Zabbix servers"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "AUTOMATIC",
+                "inventory": {
+                    "location_lat": "56.97612",
+                    "location_lon": "24.16553"
+                }
+            }
+        ]
+    }
+}
